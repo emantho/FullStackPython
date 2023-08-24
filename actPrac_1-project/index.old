@@ -11,19 +11,20 @@
 </head>
 
 <body>
-    <header>
+    <header style="background-color:orange">
         <nav>
-            <a href="#">Home</a>
-            <a href="./pages/about.html">About</a>
-            <a href="./pages/contac.html">Contact</a>
-            <a href="sign-in.html">sign-in</a>
-            <a href="./pages/locations.html">Contact</a>
+            <a style="background-color: chocolate;" href="#">Home</a>
+            <a style="background-color: chocolate;" href="./pages/about.html">About</a>
+            <a style="background-color: chocolate;" href="./pages/contac.html">Contact</a>
+            <a style="background-color: chocolate;" href="sign-in.html">sign-in</a>
+            <a style="background-color: chocolate;" href="./pages/locations.html">Contact</a>
         </nav>
 
-        <h1> <u>Emilia's Kitchen</u></h1>
+        <h1 style="text-align: center"> <u>Emilia's Kitchen</u></h1>
     </header>
     <main>
-        <table>
+
+        <table border-style="2">
             <thead>
                 <tr>
                     <th colspan="2">
@@ -34,24 +35,24 @@
             <tbody>
                 <tr>
                     <td>
-                        <h3 ><b><i>Sticky oven<br>barbecue ribs</i></b></h3>
-                        <div >
+                        <h3 style="text-align: center;"><b><i>Sticky oven<br>barbecue ribs</i></b></h3>
+                        <div style="text-align: center;">
                             <img src="https://cafedelites.com/wp-content/uploads/2018/06/Oven-Pork-Ribs-IMAGE-5.jpg"
                                 alt="Ribs.jpeg" width="150">
                             <!-- <img src="./assets/media/image/Ribs.jpeg" alt="Ribs.jpeg" width="300"> -->
                         </div>
 
-                        <a href="./pages/ribs-Recipe.html">Recipe</a>
+                        <a style="background-color: chocolate;" href="./pages/ribs-Recipe.html">Recipe</a>
                     </td>
                     <td>
-                        <h3><b><i>Seafood<br>Lasagna</i></b></h3>
-                        <div>
+                        <h3 style="text-align: center;"><b><i>Seafood<br>Lasagna</i></b></h3>
+                        <div style="text-align: center;">
                             <img src="https://therecipecritic.com/wp-content/uploads/2023/04/seafood_lasagna-1-667x1000.jpg"
                                 alt="Ribs.jpeg" width="150">
                             <!-- <img src="./assets/media/image/Ribs.jpeg" alt="Ribs.jpeg" width="300"> -->
                         </div>
 
-                        <a href="./pages/seafood-Lasagna.html">Recipe</a>
+                        <a style="background-color: chocolate;" href="./pages/seafood-Lasagna.html">Recipe</a>
                     </td>
                 </tr>
                 <tr></tr>
@@ -59,8 +60,12 @@
 
         </table>
 
+
+
+
     </main>
-    <footer>
+    <br>
+    <footer style="background-color:orange; text-align: center">
         <a href="https://www.facebook.com" target="_target"><i class="fa-brands fa-facebook"></i></i></a>
         <a href="https://www.twitter.com" target="_target"><i class="fa-brands fa-twitter"></i></i></i></a>
         <a href="https://www.pinterest.com" target="_target"><i class="fa-brands fa-pinterest"></i></i></a>
@@ -72,4 +77,5 @@
             <br>
     </footer>
 </body>
+
 </html>
