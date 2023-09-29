@@ -1,9 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --clr-black: #1c1c1c;
+    --clr-gray: #ececec;
+    --clr-white: #f7f7f7;
 
-body {
+    --clr-fire: #f08030;
+    --clr-flying: #a890f0;
+    --clr-dark: #705848;
+    --clr-bug: #a8b820;
+    --clr-steel: #b8b8d0;
     
 }
 
-header {
-    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-black);
+    font-family: 'rubik', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--clr-black);
+}
+
+.topnav a {
+    float: left;
+    color: var(--clr-white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.topnav a:hover {
+    background-color: var(--clr-steel);
+    color: var(--clr-black);
+}
+
+.topnav a.active {
+    background-color: var(--clr-bug);
+    color: var(--clr-white);
+}
+
+
+
+footer {
+    /*background-color: var(--clr-black);*/
+    height: 6%;
+    padding: 1em;
+    text-align: center;    
+    color: var(--clr-white);
+    font-size: 17px;
+}
+
+.bottomnav {
+    color: var(--clr-white);
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.bottomnav a {
+    color: var(--clr-white);
+    margin: 0px 6px;
+    font-size: 1.5vw;
+}
+
+.bottomnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.bottomnav a:active {
+    background-color: #04AA6D;
+    color: white;
 }

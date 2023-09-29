@@ -1,4 +1,4 @@
 ##
 
 # creación rápida de folders
-mkdir actPrac_1-project actPrac_1-project/{assets,pages} actPrac_1-project/assets/{css,js,media} actPrac_1-project/assets/media/{icons,image,audio,video} && touch index.html
+mkdir actPrac_1-project actPrac_1-project/{assets,pages} actPrac_1-project/assets/{css,js,media} actPrac_1-project/assets/media/{icons,image,audio,video} && touch actPrac_1-project/index.html && touch 

@@ -1,7 +1,7 @@
-console.table(
-    {
-        nombre: "Eder",
-        edad: 35,
-        email: "eder@eder.com",
-    }
-)
+// console.table(
+//     {
+//         nombre: "Eder",
+//         edad: 35,
+//         email: "eder@eder.com",
+//     }
+// )
